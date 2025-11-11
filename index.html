@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="styles/temp_style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <!--
+    About Page Template
+    Author: [Your Name]
+    Date: [Date]
+    Filename: about.html
+    -->
+</head>
+<body id="about">
+    <header>
+        <a href="index.html">
+            <img src="images/banner.png" alt="banner image">
+        </a>
+    </header>
+
+    <nav>
+        <a href="index.html">About</a>
+        <a href="templates/books.html">Books</a>
+        <a href="templates/resume.html">Resume</a>
+        <a href="templates/gallery.html">Gallery</a>
+        <a href="templates/projects.html">Projects</a>
+    </nav>
+
+    <main>
+        <section class="row">
+            <div>
+                <h2>Who Am I?</h2>
+                <p>[Brief description about yourself or your site.]</p>
+
+                <h2>My Claim to Fame</h2>
+                <p>[Highlight or achievement goes here.]</p>
+
+                <h2>Contact</h2>
+                <form name="contact" method="POST" data-netlify="true" action="/thank-you">
+                    <input type="hidden" name="form-name" value="contact">
+                    <fieldset>
+                        <legend>Contact Form</legend>
+                        <div>
+                            <label for="email">*Email</label>
+                            <input required name="email" type="email" placeholder="your@email.com" id="email">
+                        </div>
+                        <div>
+                            <label for="inquiry">*Inquiry Details</label>
+                            <input required id="inquiry" type="text" name="inquiry" placeholder="Your message here">
+                        </div>
+                        <input id="submit" name="submit" value="Submit" type="submit">
+                        <input name="reset" value="Reset" id="reset" type="reset">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="templates/books.html">Books</a>
+            <a href="templates/resume.html">Resume</a>
+            <a href="templates/gallery.html">Gallery</a>
+            <a href="templates/projects.html">Projects</a>
+        </nav>
+    </footer>
+</body>
+</html>
