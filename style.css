@@ -1,0 +1,349 @@
+@charset "utf-8";
+@media (max-width: 475px) {
+    html {
+        font-size: 90%;
+    }
+
+    p {
+        width: 95%;
+        padding: 3%;
+    }
+}
+
+html {
+    width: 100%;
+    background-color: black;
+    font-size: larger;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    width: 100%;
+    margin: 1.5% auto;
+    background-color: lightgrey;
+    max-width: 1120px;
+}
+
+header img  {
+    width: 100%;
+    display: block;
+}
+
+section.category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+p {
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: outset 2px rgb(120, 112, 112);
+    border-radius: 6px;
+    padding: 1%;
+    background: radial-gradient( whitesmoke, rgb(120, 112, 112));
+    width: 90%;
+    height: fit-content;
+}
+
+/* about page */
+
+div {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background: linear-gradient(black, rgb(120,112,112));
+    width: 100%;
+    border: outset 2px rgb(120, 112, 112);
+    box-sizing: border-box;
+    padding-left: .2em;
+    font-size: medium;
+}
+nav a {
+    background: radial-gradient(whitesmoke, rgb(120, 112, 112));
+    display: inline-flex;
+    padding-top: 1%;
+    justify-content: center;
+    color: black;
+    flex: 1 1 auto;
+    min-width: 60px;
+}
+
+/* books */
+
+article.book {
+    background: url("../images/book.png") no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    max-width: 250px;
+    min-width: 200px;
+    border-right: dashed 1px black;
+    margin: .2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+article.book div {
+    margin-left: auto;
+    margin-right: 2%;
+    width: 74%;
+    flex: 1;
+    text-align: center;
+}
+
+/* headings */
+
+h2 {
+    background: radial-gradient(whitesmoke, rgb(120, 112, 112));
+    padding: 1em;
+    margin: 0;
+    margin-bottom: .2em;
+
+    text-align: center;
+    font-size: xx-large;
+    box-sizing: border-box;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+
+h3 {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h4 {
+    font-size: small;
+    font-weight: normal;
+}
+
+/* projects images */
+section#certs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+section#certs img {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    margin: 4px;
+    max-width: 250px;
+    height: auto;
+    display: block
+}
+
+section#certs a {
+    text-align: center;
+    position: top;
+}
+
+img#family {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+/* PDF's */
+section.fullRow {
+    width: 100%; 
+    height: 100%;
+}
+
+section.fullRow article {
+    width: 100%;
+    display: inline flex;
+}
+
+section.fullRow article object {
+    margin: 0 auto;
+    width: 90%;
+    height: 80vh;
+
+}
+
+/* tables */
+table {
+    margin: 0 auto;
+    width: 98%;
+    border-collapse: collapse;
+    border: outset 2px rgb(120, 112, 112);
+    background-color: lightgray;
+}
+
+thead {
+    background: linear-gradient(black, rgb(120, 112, 112));
+    color: lightgrey;
+}
+
+table th, table td {
+    text-align: center;
+    border: solid 1px rgb(120, 112, 112);
+    padding: 1%;
+}
+
+table th {
+    min-width: 130px;
+}
+
+table caption {
+    caption-side: bottom;
+    text-align: right;
+    color: rgb(120, 112, 112);
+    padding-right: 2%;
+}
+
+tfoot {background: linear-gradient(rgb(120, 112, 112),black);}
+
+
+
+/* gallery */
+body#gallery {
+    margin: 0 auto;
+    min-width: 760px;
+}
+
+
+img#top {
+    margin-left: 5%;
+    align-items: center;
+    border-radius: 25px;
+    border: outset 5px black;
+}
+
+.float {
+    float: right;
+    max-width: calc(100% - 600px);
+    max-height: 250px;
+}
+
+p {
+    margin: 3% auto;
+}
+
+body#gallery {
+    margin: 0 auto;
+    width: 100%;
+}
+
+div#offSized {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+div#offSized article img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 25px;
+    border: outset 5px black;
+}
+
+/* resume */
+    body#resume {
+        text-align: left;
+        font-size: larger;
+        font-style: normal;
+    }
+
+    body#resume {
+        font-size: medium;
+    }
+
+    body#resume p.resume {
+        background: lightgray;
+        padding: 3%;
+        width: fit-content;
+        border: none;
+    }
+
+
+    body#resume h3 {
+        padding-left: 3%;
+        padding-right: 3%;
+        font-style: bold;
+    }
+
+    #info {
+        width: 90%;
+        text-align: center;
+        background: lightgrey url("../images/me.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right;
+        overflow: hidden;
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+    }
+    body#resume a {color: black;}
+
+    body#resume ul li {font-style: normal;}
+
+
+/* form */
+
+form {
+    justify-self: right;
+    border: outset 2px rgb(120, 112, 112);
+    border-radius: 25px;
+    max-width: 475px;
+    height: auto;
+    padding: 1%;
+    margin: 0 auto 20px auto;
+    margin-top: 10%;
+    background: radial-gradient( whitesmoke, rgb(120, 112, 112));
+}
+fieldset {
+    margin: 0 auto 20px auto;
+    width: 80%;
+}
+
+
+input:valid {border: solid 2px rgba(0, 255, 0, 0.151);}
+
+input:invalid {border: solid 2px rgba(255, 0, 0, 0.172);}
+
+input:placeholder-shown {
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+}
+
+input#reset, input#submit {
+    border: none;
+    background-color: black;
+    color: lightgrey;
+}
+
+/* footer */
+
+footer {
+    background: radial-gradient(whitesmoke, rgb(120, 112, 112));
+    text-align: center;
+    font-size: large;
+    padding: .1em;
+    border: solid black;
+    color: black;
+}
+
+/* {
+    outline: solid red;
+}
+    */
