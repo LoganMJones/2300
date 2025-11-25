@@ -42,7 +42,7 @@ p {
     border: outset 2px rgb(120, 112, 112);
     border-radius: 6px;
     padding: 1%;
-    background: radial-gradient( whitesmoke, rgb(120, 112, 112));
+    background: radial-gradient( whitesmoke, rgb(85, 154, 252));
     width: 90%;
     height: fit-content;
 }
@@ -59,7 +59,7 @@ nav {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
-    background: linear-gradient(black, rgb(120,112,112));
+    background: linear-gradient(black, rgb(85, 154, 252));
     width: 100%;
     border: outset 2px rgb(120, 112, 112);
     box-sizing: border-box;
@@ -67,7 +67,7 @@ nav {
     font-size: medium;
 }
 nav a {
-    background: radial-gradient(whitesmoke, rgb(120, 112, 112));
+    background: radial-gradient(whitesmoke, rgb(85, 154, 252));
     display: inline-flex;
     padding-top: 1%;
     justify-content: center;
@@ -105,7 +105,7 @@ article.book div {
 /* headings */
 
 h2 {
-    background: radial-gradient(whitesmoke, rgb(120, 112, 112));
+    background: radial-gradient(whitesmoke, rgb(85, 154, 252));
     padding: 1em;
     margin: 0;
     margin-bottom: .2em;
